@@ -5,6 +5,9 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 import sklearn
+import nltk
+nltk.download('stopwords')
+
 
 ps = PorterStemmer()
 
